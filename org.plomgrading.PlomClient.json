@@ -14,7 +14,7 @@
     "modules": [
         "pyqt5.json",
         "python3-toml.json",
-        "python3-requests_toolbelt.json",
+        "python3-requests-toolbelt.json",
         {
             "name": "Plom",
             "buildsystem": "simple",
