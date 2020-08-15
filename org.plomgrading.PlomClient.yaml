@@ -1,0 +1,36 @@
+# SPDX-License-Identifier: FSFAP
+# Copyright (C) 2020 Colin B. Macdonald
+#
+# Copying and distribution of this file, with or without modification,
+# are permitted in any medium without royalty provided the copyright
+# notice and this notice are preserved.  This file is offered as-is,
+# without any warranty.
+
+app-id: org.plomgrading.PlomClient
+runtime: org.kde.Platform
+runtime-version: '5.14'
+sdk: org.kde.Sdk
+command: PlomClient
+finish-args:
+  - --socket=wayland
+  - --socket=x11
+  - --share=ipc
+  - --device=dri
+  - --share=network
+# note pyqt5 has hardcoded python3.7 and does not use pip
+modules:
+  - pyqt5.json
+  - python3-toml.json
+  - python3-requests-toolbelt.json
+
+  - name: Plom
+    buildsystem: simple
+    build-commands:
+      - pip3 install --prefix=$FLATPAK_DEST --no-deps .
+      - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
+    sources:
+      - type: archive
+        url: https://files.pythonhosted.org/packages/f2/9c/7f80c20dbd4ccca1463da4ca5b7b44364259dd0a34e50b9966744d412c68/plom-0.4.2.tar.gz
+        sha256: 9da10be8193dc9b70359d3ff8144eef13e7ece4a636251753465569d7663a413
+      - type: file
+        path: PlomClient.workaround
