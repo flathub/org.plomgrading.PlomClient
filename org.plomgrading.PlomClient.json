@@ -19,8 +19,8 @@
             "name": "Plom",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --prefix=/app --no-deps .",
-                "install -D PlomClient.workaround /app/bin/PlomClient"
+                "pip3 install --prefix=$FLATPAK_DEST --no-deps .",
+                "install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient"
             ],
             "sources": [
                 {
