@@ -22,6 +22,7 @@ modules:
   - pyqt5.json
   - python3-toml.json
   - python3-requests-toolbelt.json
+  - python3-wheel.json
 
   - name: Plom
     buildsystem: simple
