@@ -26,7 +26,7 @@ modules:
   - name: Plom
     buildsystem: simple
     build-commands:
-      - pip3 install --prefix=$FLATPAK_DEST --no-deps .
+      - pip3 install --prefix=$FLATPAK_DEST --no-deps --no-build-isolation .
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
