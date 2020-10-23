@@ -31,7 +31,7 @@ modules:
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/be/f6/444f418ab5aa435ee61dcf196611d808faf6db136d7da887c6d384036879/plom-0.5.3.tar.gz
-        sha256: 691e1dad9016831b9f9740183a3b431b4d9fba89dc592679131be716c3415a68
+        url: https://files.pythonhosted.org/packages/06/77/db07127884558bb211af61c4889936b080d0709efa60d603b87ce56b3d91/plom-0.5.5.tar.gz
+        sha256: 136064e5f05e156ade7ee9a800c60cd99caa3413b9dfc083eac7b8272d182ad5
       - type: file
         path: PlomClient.workaround
