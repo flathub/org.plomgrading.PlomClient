@@ -6,6 +6,7 @@
 # notice and this notice are preserved.  This file is offered as-is,
 # without any warranty.
 
+
 app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
 runtime-version: '5.14'
