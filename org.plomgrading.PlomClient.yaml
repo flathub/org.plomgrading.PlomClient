@@ -8,7 +8,7 @@
 
 app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
-runtime-version: '5.14'
+runtime-version: '5.15'
 sdk: org.kde.Sdk
 command: PlomClient
 finish-args:
@@ -17,7 +17,7 @@ finish-args:
   - --share=ipc
   - --device=dri
   - --share=network
-# note pyqt5 has hardcoded python3.7 and does not use pip
+# note pyqt5 has hardcoded python3.8 and does not use pip
 modules:
   - pyqt5.json
   - python3-toml.json
@@ -31,7 +31,7 @@ modules:
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/2c/60/b07e330aeb7203f0651d557dd3c62880ce90f56b7a49c1b666c72770ce01/plom-0.5.7.tar.gz
-        sha256: df5b8f6856d776eb63865adbd08d456497d8939b7ecc6d1dcc52f15c61737d71
+        url: https://files.pythonhosted.org/packages/2c/07/40e0c1d2a82f666f3b591e50c13d1e4e0596535fda484eb11e119622e4d4/plom-0.5.8.tar.gz
+        sha256: e1b9da8ae376c5f7e0f033822728043832a34bf709f4169308d5f8bffd552807
       - type: file
         path: PlomClient.workaround
