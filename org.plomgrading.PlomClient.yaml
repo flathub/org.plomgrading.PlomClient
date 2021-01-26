@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: FSFAP
-# Copyright (C) 2020 Colin B. Macdonald
+# Copyright (C) 2020-2021 Colin B. Macdonald
 #
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
@@ -20,6 +20,7 @@ finish-args:
 # note pyqt5 has hardcoded python3.8 and does not use pip
 modules:
   - pyqt5.json
+  - python3-appdirs.json
   - python3-toml.json
   - python3-requests-toolbelt.json
   - python3-wheel.json
@@ -31,7 +32,7 @@ modules:
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/63/24/eb9dc6b8c9e62201728b0e5818277fc60c8a9ad1646f05ba642ce67c5847/plom-0.5.13.tar.gz
-        sha256: eaca2fd3655c26da6e8153bdf3b92e58e5d00f9869505ac8de5392c66c85bfa1
+        url: https://files.pythonhosted.org/packages/3e/17/888ab8a30de9295ea3ebf9a73d39a0c56d77dbdf5a6920d9c106e5aeb3c6/plom-0.5.15.tar.gz
+        sha256: c283fa249b88ab04337594c9644b41dd6b3d92147b89f6a5afb5549538677be0
       - type: file
         path: PlomClient.workaround
