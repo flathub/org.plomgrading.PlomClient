@@ -20,6 +20,7 @@ finish-args:
 # note pyqt5 has hardcoded python3.8 and does not use pip
 modules:
   - pyqt5.json
+  - python3-appdirs.json
   - python3-toml.json
   - python3-requests-toolbelt.json
   - python3-wheel.json
