@@ -10,8 +10,8 @@
     ],
     "sources": [{
         "type": "archive",
-	"url": "https://files.pythonhosted.org/packages/28/6c/640e3f5c734c296a7193079a86842a789edb7988dca39eab44579088a1d1/PyQt5-5.15.2.tar.gz",
-        "sha256": "372b08dc9321d1201e4690182697c5e7ffb2e0770e6b4a45519025134b12e4fc"
+        "url": "https://files.pythonhosted.org/packages/6e/86/d715e71771cece0e060f2ebab20f3ded067b08a0927dfb3143530cae8098/PyQt5-5.15.3.tar.gz",
+        "sha256": "965ba50e7029b37f218a54ace24e87c77db3e5a9f0b83baeb21fb57b4154b838"
     }],
       "modules": [{
         "name": "sip",
@@ -23,8 +23,8 @@
         ],
         "sources": [{
             "type": "archive",
-            "url": "https://www.riverbankcomputing.com/static/Downloads/sip/4.19.24/sip-4.19.24.tar.gz",
-            "sha256": "edcd3790bb01938191eef0f6117de0bf56d1136626c0ddb678f3a558d62e41e5"
+            "url": "https://www.riverbankcomputing.com/static/Downloads/sip/4.19.25/sip-4.19.25.tar.gz",
+            "sha256": "b39d93e937647807bac23579edbff25fe46d16213f708370072574ab1f1b4211"
         }]
     }]
 }
