@@ -10,8 +10,8 @@
     ],
     "sources": [{
         "type": "archive",
-        "url": "https://files.pythonhosted.org/packages/6e/86/d715e71771cece0e060f2ebab20f3ded067b08a0927dfb3143530cae8098/PyQt5-5.15.3.tar.gz",
-        "sha256": "965ba50e7029b37f218a54ace24e87c77db3e5a9f0b83baeb21fb57b4154b838"
+        "url": "https://files.pythonhosted.org/packages/8e/a4/d5e4bf99dd50134c88b95e926d7b81aad2473b47fde5e3e4eac2c69a8942/PyQt5-5.15.4.tar.gz",
+        "sha256": "2a69597e0dd11caabe75fae133feca66387819fc9bc050f547e5551bce97e5be",
     }],
       "modules": [{
         "name": "sip",
