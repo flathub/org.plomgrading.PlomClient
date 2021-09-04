@@ -21,6 +21,7 @@ finish-args:
 modules:
   - pyqt5.json
   - python3-appdirs.json
+  - python3-stdiomask.json
   - python3-toml.json
   - python3-requests-toolbelt.json
   - python3-wheel.json
