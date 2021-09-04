@@ -21,6 +21,7 @@ finish-args:
 modules:
   - pyqt5.json
   - python3-appdirs.json
+  - python3-stdiomask.json
   - python3-toml.json
   - python3-requests-toolbelt.json
   - python3-wheel.json
@@ -32,7 +33,7 @@ modules:
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/b3/09/0d62dfd91764873acf68af35ff2be936dbe425ad97945320a22069198842/plom-0.6.5.tar.gz
-        sha256: cf3fe708850c45d8cd1b4e4ad491162267c008dbe0bf80ae2db93cbb3fadcc0d
+        url: https://files.pythonhosted.org/packages/7d/9a/755888758c21c322887b70cab351cc6d288947126fb89d71e9e9272066ca/plom-0.7.0.tar.gz
+        sha256: 656c4e55981b10cf2cbbfa3ac76ae558e862b3fdbf0396d57d96a04950ae4669
       - type: file
         path: PlomClient.workaround
