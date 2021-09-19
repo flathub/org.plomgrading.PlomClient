@@ -37,5 +37,10 @@ modules:
       - type: archive
         url: https://pypi.io/packages/source/p/plom/plom-0.8.10.tar.gz
         sha256: 42580fe2ebd16859ba0ee24e1b58909504fffa1e5f3b12f5c6b86f67d9b41a02
+        x-checker-data:
+          - type: anitya
+          - project-id: 92380
+          - stable-only: true
+          - url-template: https://pypi.io/packages/source/p/plom/plom-$version.tar.gz
       - type: file
         path: PlomClient.workaround
