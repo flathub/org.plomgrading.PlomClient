@@ -26,6 +26,8 @@ modules:
   - python3-requests-toolbelt.json
   - python3-wheel.json
   - python3-packaging.json
+  - python3-arrow.json
+  - python3-pillow.json
 
   - name: Plom
     buildsystem: simple
@@ -34,7 +36,7 @@ modules:
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom/plom-0.7.12.tar.gz
-        sha256: 797738714ac27295a94ae876a0c488ccefc3e8f1954c18cac0809b4f528f5dce
+        url: https://pypi.io/packages/source/p/plom/plom-0.8.0.tar.gz
+        sha256: 72830ed28d9f5d6884fece4e8707d95e95d25b29a25b17b60a3b54b6ada79540
       - type: file
         path: PlomClient.workaround
