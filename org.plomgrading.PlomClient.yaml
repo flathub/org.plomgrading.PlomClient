@@ -27,7 +27,7 @@ modules:
   - python3-wheel.json
   - python3-packaging.json
   - python3-arrow.json
-  - python3-pillow.json
+  - python3-Pillow.json
 
   - name: Plom
     buildsystem: simple
