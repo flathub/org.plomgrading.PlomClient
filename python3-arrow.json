@@ -2,7 +2,7 @@
     "name": "python3-arrow",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"arrow==1.1.1\" --no-build-isolation"
+        "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"arrow==1.2.2\" --no-build-isolation"
     ],
     "sources": [
         {
@@ -12,8 +12,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/94/39/b5bb573821d6784640c227ccbd72fa192f7542fa0f68589fd51757046030/arrow-1.1.1.tar.gz",
-            "sha256": "dee7602f6c60e3ec510095b5e301441bc56288cb8f51def14dcb3079f623823a"
+            "url": "https://files.pythonhosted.org/packages/48/28/30a5748af715b0ab9c2b81cf08bd9e261e47a6261e247553afb7f6421b24/arrow-1.2.2.tar.gz",
+            "sha256": "05caf1fd3d9a11a1135b2b6f09887421153b94558e5ef4d090b567b47173ac2b"
         }
     ]
 }
