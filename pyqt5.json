@@ -23,8 +23,8 @@
         ],
         "sources": [{
             "type": "archive",
-            "url": "https://www.riverbankcomputing.com/static/Downloads/sip/4.19.25/sip-4.19.25.tar.gz",
-            "sha256": "b39d93e937647807bac23579edbff25fe46d16213f708370072574ab1f1b4211"
+            "url": "https://pypi.io/packages/source/s/sip/sip-6.5.1.tar.gz",
+            "sha256": "204f0240db8999a749d638a987b351861843e69239b811ec3d1881412c3706a6"
         }]
     }]
 }
