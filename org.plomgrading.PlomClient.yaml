@@ -17,7 +17,7 @@ finish-args:
   - --share=ipc
   - --device=dri
   - --share=network
-# note pyqt5 has hardcoded python3.8 and does not use pip
+# note pyqt5 has hardcoded python3.9 and does not use pip
 modules:
   - pyqt5.json
   - python3-appdirs.json
@@ -38,9 +38,9 @@ modules:
         url: https://pypi.io/packages/source/p/plom/plom-0.8.11.tar.gz
         sha256: bada04eea021d0e17a11ee294bdb0d7ef921b5e08bb715754052d78e9529091f
         x-checker-data:
-          - type: anitya
-          - project-id: 92380
-          - stable-only: true
-          - url-template: https://pypi.io/packages/source/p/plom/plom-$version.tar.gz
+          type: anitya
+          project-id: 92380
+          stable-only: true
+          url-template: https://pypi.io/packages/source/p/plom/plom-$version.tar.gz
       - type: file
         path: PlomClient.workaround
