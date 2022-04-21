@@ -16,11 +16,13 @@ to have an installer: I just copied the single Python file off github.
 I bump the deps according to the upstream `requirements.txt.client` file.
 For example,
 ```
-./flatpak-pip-generator appdirs==1.x.y
-./flatpak-pip-generator toml==0.x.y
+./flatpak-pip-generator appdirs==1.4.4
+./flatpak-pip-generator Pillow==9.1.0
 ```
 For `requests-toolbelt`, this tends to re-order the entries.  So
 I sort of do that one manually based on the output.
+
+Note: python3-packaging, python3-toml are in com.riverbankcomputing.PyQt.BaseApp
 
 Then I submit a branch to github.com, which causes the Flathub bot to try
 building it.  It also gives you a link that folks can use if they need a

@@ -29,9 +29,7 @@ build-options:
 modules:
   - python3-appdirs.json
   - python3-stdiomask.json
-  - python3-toml.json
   - python3-requests-toolbelt.json
-  - python3-packaging.json
   - python3-arrow.json
   - python3-Pillow.json
 
