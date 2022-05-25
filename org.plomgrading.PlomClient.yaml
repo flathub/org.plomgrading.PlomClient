@@ -6,9 +6,11 @@
 # notice and this notice are preserved.  This file is offered as-is,
 # without any warranty.
 
+# TODO: drop toml and packaging if they come from the PyQy.BaseApp
+
 app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
-runtime-version: '5.15-21.08'
+runtime-version: 5.15-21.08
 sdk: org.kde.Sdk
 command: PlomClient
 finish-args:
@@ -17,14 +19,17 @@ finish-args:
   - --share=ipc
   - --device=dri
   - --share=network
-# note pyqt5 has hardcoded python3.9 and does not use pip
+base: com.riverbankcomputing.PyQt.BaseApp
+base-version: 5.15-21.08
+cleanup-commands:
+  - /app/cleanup-BaseApp.sh
+build-options:
+  env:
+    - BASEAPP_REMOVE_WEBENGINE=1
 modules:
-  - pyqt5.json
   - python3-appdirs.json
   - python3-stdiomask.json
-  - python3-toml.json
   - python3-requests-toolbelt.json
-  - python3-packaging.json
   - python3-arrow.json
   - python3-Pillow.json
 
@@ -35,8 +40,8 @@ modules:
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom/plom-0.8.11.tar.gz
-        sha256: bada04eea021d0e17a11ee294bdb0d7ef921b5e08bb715754052d78e9529091f
+        url: https://pypi.io/packages/source/p/plom/plom-0.9.0.tar.gz
+        sha256: 6df3feff00caf3bd3691f2b389704c6c6b1b3ca8cbb82cd02192fbfcab8c26ba
         x-checker-data:
           type: anitya
           project-id: 92380
