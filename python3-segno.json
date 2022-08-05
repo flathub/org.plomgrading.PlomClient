@@ -1,0 +1,14 @@
+{
+    "name": "python3-segno",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"segno==1.5.2\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/10/57/bef22e1ec64200bd5887c6012221e018fc1f2a25697a7f90f661b9689c00/segno-1.5.2-py2.py3-none-any.whl",
+            "sha256": "b17ace8171aad3987e01bb4aeadf7e0450c40674024c4c57b4da54028e55f1e9"
+        }
+    ]
+}

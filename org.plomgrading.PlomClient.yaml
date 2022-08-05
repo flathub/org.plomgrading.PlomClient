@@ -28,10 +28,14 @@ build-options:
     - BASEAPP_REMOVE_WEBENGINE=1
 modules:
   - python3-appdirs.json
+  - python3-exif.json
   - python3-stdiomask.json
   - python3-requests-toolbelt.json
   - python3-arrow.json
   - python3-Pillow.json
+  - python3-pymupdf.yaml
+  - python3-segno.json
+  - python3-tqdm.json
 
   - name: Plom
     buildsystem: simple
