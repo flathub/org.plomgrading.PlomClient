@@ -16,48 +16,48 @@
 name: python3-pymupdf
 buildsystem: simple
 build-commands:
-  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} "pymupdf==1.20.1" --no-build-isolation
+  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} "pymupdf==1.20.2" --no-build-isolation
 sources:
   - type: file
-    url: https://pypi.io/packages/source/p/pymupdf/PyMuPDF-1.20.1.tar.gz
-    sha256: 305c1a64b8fb2fd465e27cc8bdcbf0f64224f0ec6d7763e3f5f2ca6783136649
+    url: https://pypi.io/packages/source/p/pymupdf/PyMuPDF-1.20.2.tar.gz
+    sha256: 02eedf01f57c6bafb5e8667cea0088a2d2522643c47100f1908bec3a68a84888
   - type: file
-    url: https://files.pythonhosted.org/packages/b6/a3/bca132d4af5385187c7f78b1a926342a8d647dc78da7ba78ad7a90c9c495/PyMuPDF-1.20.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: 12167cd3a58f50b9e67600112834d588beeec400ffce06564b8f2bf2b8b8f9f7
+    url: https://files.pythonhosted.org/packages/57/a7/e3f2ee590766aa8c923b9580ee7dc9e2c5cec3b1f00456e66ec8a47192d0/PyMuPDF-1.20.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: 73dbf73ac1c5cbf99dec903c98bc18eb30c8fe1d703ec5531296a5308700f001
     only-arches:
       - x86_64
   - type: file
-    url: https://files.pythonhosted.org/packages/25/40/9c85e9f4c3ba6646605f4d0eb43cb37cac27954f511f9b2a98129283edbb/PyMuPDF-1.20.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-    sha256: 524396cb72a361b1382ad6dbb7ad51b123b76cd98e88fafe46f96252ebb8a484
+    url: https://files.pythonhosted.org/packages/34/64/1fddfe6b4df8084dbd74d86299ab6083feecaf006ae03f3b68bbf782ac6e/PyMuPDF-1.20.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: 2a82438b44723e7dcb47d156cf0299fcf3d09e970ee469081c3f9d79b8c40ce3
     only-arches:
       - aarch64
   - type: file
-    url: https://files.pythonhosted.org/packages/d1/ab/3ad3c732ffa3ba07d6726021d4d9099c231ca2c108dc57e82fcdddc64cda/PyMuPDF-1.20.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: 743f1ee5ebdba51505d2c81e903dcc9f3903cb07ee99b4419daae1a355b75642
+    url: https://files.pythonhosted.org/packages/68/29/6e7a908db60d4d653ae68553ef2faac3943204d94efdd63cc0aa1e37fa3b/PyMuPDF-1.20.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: 5c0ee0df665849f8686981fcc8f836afac2302bb6a7aaf330e73fd5694017d9d
     only-arches:
       - x86_64
   - type: file
-    url: https://files.pythonhosted.org/packages/b3/cf/dcfe97d72ba72244cbc1f5ee697535cd17f56ff2d04aa64d9ca1f9c87d4f/PyMuPDF-1.20.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-    sha256: 7e95b7c867e4a6a8f2fd85c82cb0dc8fbb536eb1a6e9a9e33c8b3d68642c2782
+    url: https://files.pythonhosted.org/packages/f8/31/037e95c81f98c8e3011f159fd486cdf05ecc6706721cc430a116c935acb4/PyMuPDF-1.20.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: bddf7d617fba1b345d9aee8d533888e340ffa3f784910453608bc5541089023c
     only-arches:
       - aarch64
   - type: file
-    url: https://files.pythonhosted.org/packages/8e/a5/35f653f07e56ba353839db1a73b697fbbf2da0ae728990031fb910b0c02c/PyMuPDF-1.20.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: cab9da6ed5dbfe0c9ee0084330f8683b15d160c00e681e14f60a23a313f34376
+    url: https://files.pythonhosted.org/packages/1a/92/8944ffdccc43fcb775caef8d3762e86136d758102f830a319af5fda1c467/PyMuPDF-1.20.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: 9f2897fb4160b5fe2f80739ca9e101677e5694b5dcfda8026b0eb0b7e2db5615
     only-arches:
       - x86_64
   - type: file
-    url: https://files.pythonhosted.org/packages/8d/f4/9a3f050b92934df88186db331ed36336270fb3ded5d4f0f2e9f7879c80c8/PyMuPDF-1.20.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-    sha256: 06f5970f7851a97fbd0b7ea424ba44c150a7f6570a38fb582348098e51627c68
+    url: https://files.pythonhosted.org/packages/2e/56/454f1e47e4fb4e0f857e817e068741b5c2c3446e9a5eb1c178ae87c6261d/PyMuPDF-1.20.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: 7d29a7db4b15dcb7632bb6afa197f12f95244ab15f7c73ccb219e3f7df4e79fa
     only-arches:
       - aarch64
   - type: file
-    url: https://files.pythonhosted.org/packages/46/ee/01aa35eb3a731977459e7b72cbc9eebb6db41dad048a3bc9a09913a96181/PyMuPDF-1.20.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: 134290580f2465ea638c7425cdc68ffd20b9e69b918fb8355e532603f3aad43f
+    url: https://files.pythonhosted.org/packages/fc/e8/5e9a0a148ef2e88ef40af0e124efd05cdf4f17f9be61cba7d38241fca286/PyMuPDF-1.20.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: 6c50b8408dbbb921cfce7145ac0ae0e150955f9b2deed8cdddf03e830ca1e6a2
     only-arches:
       - x86_64
   - type: file
-    url: https://files.pythonhosted.org/packages/4b/ce/85d14b40c1641cd0b7e799ff0413903db256eea92c92317535d5206655bf/PyMuPDF-1.20.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-    sha256: 435d7db1f7b20536ff2208ec53cf805f1bbd8bfb0e3515a494f33493ded61685
+    url: https://files.pythonhosted.org/packages/a7/37/7eac8ffdf529d880ce224bfb922544878905dc8fb9367bb909640fe1a89e/PyMuPDF-1.20.2-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: 5824103cf2ea3b492cb5b3c66ab16d61db65363ebdfb7ed28a2af93cb48dee4f
     only-arches:
       - aarch64
