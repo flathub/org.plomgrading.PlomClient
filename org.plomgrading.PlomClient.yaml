@@ -38,6 +38,7 @@ modules:
   - python3-segno.json
   - python3-tqdm.json
   - python3-weasyprint.json
+  - python3-pandas.json
 
   - name: Plom
     buildsystem: simple
