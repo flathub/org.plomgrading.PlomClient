@@ -1,0 +1,74 @@
+{
+    "name": "python3-weasyprint",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"weasyprint==56.1\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl",
+            "sha256": "8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/1c/81/0e95d52dac66f286a392dd0f7287a333dba9d543b562f80ef1a1e07e3e2f/fonttools-4.36.0-py3-none-any.whl",
+            "sha256": "cb91ef8d5a435d90aeb3ab814b2548c6b515df5bc13b4c5adaa23778f2f79823"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/91/25/ba6f370e18359292f05ca4df93642eb7d1c424721ef61f61b8610a63d0c5/zopfli-0.2.1.zip",
+            "sha256": "e5263d2806e2c1ccb23f52b2972a235d31d42f22f3fa3032cc9aded51e9bf2c6"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",
+            "sha256": "a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/2a/18/70c32fe9357f3eea18598b23aa9ed29b1711c3001835f7cf99a9818985d0/Brotli-1.0.9.zip",
+            "sha256": "4d1b810aa0ed773f81dceda2cc7b403d01057458730e309856356d4ef4188438"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/53/7b/5dba39bf0572f1f28e2844f08f74a73482a381de1d1feac3bbc6b808051e/tinycss2-1.1.1-py3-none-any.whl",
+            "sha256": "fe794ceaadfe3cf3e686b22155d0da5780dd0e273471a51846d0a02bc204fec8"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/89/e1/8e7313c8bf030ab5fc63f6a6b2f037b39fa2858fe1e93d3c06440a4b7614/pyphen-0.12.0-py3-none-any.whl",
+            "sha256": "459020cd320eb200c0c5ba46b98b2278fd34c5546f520fdcd2ce5f8d733eb994"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/2d/e0/91806004db4bcde81325aee95ea37fdc3d01a2a07d407df0a450f9cdaa0c/pydyf-0.2.0-py3-none-any.whl",
+            "sha256": "f0468bc644d3a5b0a7072d0d92bd5c024cf4beede0df56100d9919a59f15e1f0"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/8c/92/2975b464d9926dc667020ed1abfa6276e68c3571dcb77e43347e15ee9eed/Pillow-9.2.0.tar.gz",
+            "sha256": "75e636fd3e0fb872693f23ccb8a5ff2cd578801251f3a4f6854c6a5d437d3c04"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl",
+            "sha256": "0d78f8fde1c230e99fe37986a60526d7049ed4bf8a9fadbad5f00e22e58e041d"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/e4/40/98fcfdf1a190aa0aeddf2fd0a432a4997c2c1f826f3f7b00fe42fc72c8ce/cssselect2-0.6.0-py3-none-any.whl",
+            "sha256": "3a83b2a68370c69c9cd3fcb88bbfaebe9d22edeef2c22d1ff3e1ed9c7fa45ed8"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/2b/a8/050ab4f0c3d4c1b8aaa805f70e26e84d0e27004907c5b8ecc1d31815f92a/cffi-1.15.1.tar.gz",
+            "sha256": "d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/23/c0/3ba14d498caaa34604726b36dc0d3324d7e9d3d38286338ad813d4c492d1/weasyprint-56.1-py3-none-any.whl",
+            "sha256": "86ffa626a7b335d19a7024c0b59a6b3160fd5c0e7a3634500f50a2c35faeafb5"
+        }
+    ]
+}
