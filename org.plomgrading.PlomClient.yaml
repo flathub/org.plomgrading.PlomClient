@@ -7,6 +7,7 @@
 # without any warranty.
 
 # TODO: drop filesystem permissions if manager split off to new flatpak
+# TODO: or change to :ro for the insert-image function?
 
 app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
@@ -38,6 +39,7 @@ modules:
   - python3-segno.json
   - python3-tqdm.json
   - python3-weasyprint.json
+  - python3-pandas.yaml
 
   - name: Plom
     buildsystem: simple
