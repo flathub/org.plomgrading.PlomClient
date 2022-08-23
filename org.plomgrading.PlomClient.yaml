@@ -6,7 +6,7 @@
 # notice and this notice are preserved.  This file is offered as-is,
 # without any warranty.
 
-# TODO: drop toml and packaging if they come from the PyQy.BaseApp
+# TODO: drop filesystem permissions if manager split off to new flatpak
 
 app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
@@ -19,6 +19,7 @@ finish-args:
   - --share=ipc
   - --device=dri
   - --share=network
+  - --filesystem=home
 base: com.riverbankcomputing.PyQt.BaseApp
 base-version: 5.15-21.08
 cleanup-commands:
