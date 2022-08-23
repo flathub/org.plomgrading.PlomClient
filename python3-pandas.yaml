@@ -1,0 +1,46 @@
+# SPDX-License-Identifier: FSFAP
+# Copyright (C) 2022 Colin B. Macdonald
+#
+# Copying and distribution of this file, with or without modification,
+# are permitted in any medium without royalty provided the copyright
+# notice and this notice are preserved.  This file is offered as-is,
+# without any warranty.
+
+# Idea is to specify the available "manylinux" wheels for x86_64 and
+# aarch64 to avoid building Pandas source (which I can't get working,
+# something about numpy).  Inspired by an example by real-yfprojects:
+# https://github.com/flatpak/flatpak-builder-tools/issues/296#issuecomment-1173037783
+#
+# I included the .tar.gz source as a fallback, but could be removed.
+
+name: python3-pandas
+buildsystem: simple
+build-commands:
+  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} "pandas==1.4.3" --no-build-isolation
+sources:
+  - type: file
+    url: https://pypi.io/packages/source/p/pandas/pandas-1.4.3.tar.gz
+    sha256: 2ff7788468e75917574f080cd4681b27e1a7bf36461fe968b49a87b5a54d007c
+  - type: file
+    url: https://files.pythonhosted.org/packages/a5/ac/6c04be2c26e8c839659b7bcdc7a4bcd4e5366867bff8027ffd1cae58b806/pandas-1.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: 1d9382f72a4f0e93909feece6fef5500e838ce1c355a581b3d8f259839f2ea76
+    only-arches:
+      - x86_64
+  - type: file
+    url: https://files.pythonhosted.org/packages/ca/b0/2994a42e3852deb3aaa4af7804a04f9defb13a6f2e6edc6328683700d386/pandas-1.4.3-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: 41fc406e374590a3d492325b889a2686b31e7a7780bec83db2512988550dadbf
+    only-arches:
+      - aarch64
+  - type: file
+    url: https://files.pythonhosted.org/packages/f8/ea/ff38168d6565a8549f819699cac4d89bbc38fc5b27fb94f8e92bcd713348/numpy-1.23.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: c403c81bb8ffb1c993d0165a11493fd4bf1353d258f6997b3ee288b0a48fce77
+    only-arches:
+      - x86_64
+  - type: file
+    url: https://files.pythonhosted.org/packages/d0/d2/eb5aad7aae64618a128d0de3909058403cad0fd0391e0e21e302a8f7755c/numpy-1.23.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: 8f9d84a24889ebb4c641a9b99e54adb8cab50972f0166a3abc14c3b93163f074
+    only-arches:
+      - aarch64
+  - type: file
+    url: https://files.pythonhosted.org/packages/d5/50/54451e88e3da4616286029a3a17fc377de817f66a0f50e1faaee90161724/pytz-2022.2.1-py2.py3-none-any.whl
+    sha256: 220f481bdafa09c3955dfbdddb7b57780e9a94f5127e35456a48589b9e0c0197
