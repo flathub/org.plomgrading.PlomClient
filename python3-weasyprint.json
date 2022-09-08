@@ -12,8 +12,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/1c/81/0e95d52dac66f286a392dd0f7287a333dba9d543b562f80ef1a1e07e3e2f/fonttools-4.36.0-py3-none-any.whl",
-            "sha256": "cb91ef8d5a435d90aeb3ab814b2548c6b515df5bc13b4c5adaa23778f2f79823"
+            "url": "https://files.pythonhosted.org/packages/99/e2/90421047dfd94ed78064b41345d63985c576dc98b7c87bec92a1a8cb88e5/fonttools-4.37.1-py3-none-any.whl",
+            "sha256": "fff6b752e326c15756c819fe2fe7ceab69f96a1dbcfe8911d0941cdb49905007"
         },
         {
             "type": "file",
@@ -37,8 +37,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/89/e1/8e7313c8bf030ab5fc63f6a6b2f037b39fa2858fe1e93d3c06440a4b7614/pyphen-0.12.0-py3-none-any.whl",
-            "sha256": "459020cd320eb200c0c5ba46b98b2278fd34c5546f520fdcd2ce5f8d733eb994"
+            "url": "https://files.pythonhosted.org/packages/21/49/3683943dcde25ee76bf3ef99ffb67acf4cb5680372eebd2b4a803736e1fb/pyphen-0.13.0-py3-none-any.whl",
+            "sha256": "3363476ae72d2b633b9f173edecbaba57a907e7ec49efde0eabb8c20839f66fa"
         },
         {
             "type": "file",
