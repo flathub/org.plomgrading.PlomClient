@@ -19,7 +19,7 @@ build-commands:
   - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} "pandas==1.4.4" --no-build-isolation
 sources:
   - type: file
-    url: https://pypi.io/packages/source/p/pandas/pandas-1.4.3.tar.gz
+    url: https://pypi.io/packages/source/p/pandas/pandas-1.4.4.tar.gz
     sha256: ab6c0d738617b675183e5f28db32b5148b694ad9bba0a40c3ea26d96b431db67
   - type: file
     url: https://files.pythonhosted.org/packages/91/2e/f2e84148e71dda670b310f1f7b9a220181e5dc1fe2f9dcf6a8632412bf4e/pandas-1.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
