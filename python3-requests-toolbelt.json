@@ -12,13 +12,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/e9/06/d3d367b7af6305b16f0d28ae2aaeb86154fa91f144f036c2d5002a5a202b/certifi-2022.6.15-py3-none-any.whl",
-            "sha256": "fe86415d55e84719d75f8b69414f6438ac3547d2078ab91b67e779ef69378412"
+            "url": "https://files.pythonhosted.org/packages/1d/38/fa96a426e0c0e68aabc68e896584b83ad1eec779265a028e156ce509630e/certifi-2022.9.24-py3-none-any.whl",
+            "sha256": "90c1a32f1d68f940488354e36370f6cca89f0f106db09518524c88d6ed83f382"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/04/a2/d918dcd22354d8958fe113e1a3630137e0fc8b44859ade3063982eacd2a4/idna-3.3-py3-none-any.whl",
-            "sha256": "84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"
+            "url": "https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl",
+            "sha256": "90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"
         },
         {
             "type": "file",
