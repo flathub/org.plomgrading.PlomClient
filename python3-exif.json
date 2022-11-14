@@ -7,8 +7,8 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/fa/ba/36f26f7ecc290ee9d8b3bdf1634256d5fe5a5490a58b3d2205fde67cbdd1/plum_py-0.8.1-py3-none-any.whl",
-            "sha256": "2167bc989b8a861bc9d2680d524287e76f56aff12b443651801ceae274da559e"
+            "url": "https://files.pythonhosted.org/packages/a7/47/254c3b9ae6a4a13f2280864cc086159fcd83edad1ca0f2485c122c5fd7d9/plum_py-0.8.4-py3-none-any.whl",
+            "sha256": "9d8441db1623767c9b141b3975dea40fb9eb82e8d4afb3613b52bf14cb974a48"
         },
         {
             "type": "file",

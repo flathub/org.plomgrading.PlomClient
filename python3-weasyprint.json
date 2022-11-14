@@ -12,8 +12,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/99/e2/90421047dfd94ed78064b41345d63985c576dc98b7c87bec92a1a8cb88e5/fonttools-4.37.1-py3-none-any.whl",
-            "sha256": "fff6b752e326c15756c819fe2fe7ceab69f96a1dbcfe8911d0941cdb49905007"
+            "url": "https://files.pythonhosted.org/packages/e3/d9/e9bae85e84737e76ebbcbea13607236da0c0699baed0ae4f1151b728a608/fonttools-4.38.0-py3-none-any.whl",
+            "sha256": "820466f43c8be8c3009aef8b87e785014133508f0de64ec469e4efb643ae54fb"
         },
         {
             "type": "file",
@@ -32,8 +32,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/53/7b/5dba39bf0572f1f28e2844f08f74a73482a381de1d1feac3bbc6b808051e/tinycss2-1.1.1-py3-none-any.whl",
-            "sha256": "fe794ceaadfe3cf3e686b22155d0da5780dd0e273471a51846d0a02bc204fec8"
+            "url": "https://files.pythonhosted.org/packages/da/99/fd23634d6962c2791fb8cb6ccae1f05dcbfc39bce36bba8b1c9a8d92eae8/tinycss2-1.2.1-py3-none-any.whl",
+            "sha256": "2b80a96d41e7c3914b8cda8bc7f705a4d9c49275616e886103dd839dfc847847"
         },
         {
             "type": "file",
@@ -42,13 +42,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/2d/e0/91806004db4bcde81325aee95ea37fdc3d01a2a07d407df0a450f9cdaa0c/pydyf-0.2.0-py3-none-any.whl",
-            "sha256": "f0468bc644d3a5b0a7072d0d92bd5c024cf4beede0df56100d9919a59f15e1f0"
+            "url": "https://files.pythonhosted.org/packages/37/ea/b666bdf953edb998bb5682ab2ac8bcdee8f78e72d5e8a8cdace55b049d38/pydyf-0.5.0-py3-none-any.whl",
+            "sha256": "116bc4b057822dc72d6afc826cad33444f7dcde8059aa85534380fb63e3e306f"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/8c/92/2975b464d9926dc667020ed1abfa6276e68c3571dcb77e43347e15ee9eed/Pillow-9.2.0.tar.gz",
-            "sha256": "75e636fd3e0fb872693f23ccb8a5ff2cd578801251f3a4f6854c6a5d437d3c04"
+            "url": "https://files.pythonhosted.org/packages/16/11/da8d395299ca166aa56d9436e26fe8440e5443471de16ccd9a1d06f5993a/Pillow-9.3.0.tar.gz",
+            "sha256": "c935a22a557a560108d780f9a0fc426dd7459940dc54faa49d83249c8d3e760f"
         },
         {
             "type": "file",
@@ -57,8 +57,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/e4/40/98fcfdf1a190aa0aeddf2fd0a432a4997c2c1f826f3f7b00fe42fc72c8ce/cssselect2-0.6.0-py3-none-any.whl",
-            "sha256": "3a83b2a68370c69c9cd3fcb88bbfaebe9d22edeef2c22d1ff3e1ed9c7fa45ed8"
+            "url": "https://files.pythonhosted.org/packages/9d/3a/e39436efe51894243ff145a37c4f9a030839b97779ebcc4f13b3ba21c54e/cssselect2-0.7.0-py3-none-any.whl",
+            "sha256": "fd23a65bfd444595913f02fc71f6b286c29261e354c41d722ca7a261a49b5969"
         },
         {
             "type": "file",
