@@ -2,7 +2,7 @@
     "name": "python3-requests-toolbelt",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"requests-toolbelt==0.9.1\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"requests-toolbelt==0.10.1\" --no-build-isolation"
     ],
     "sources": [
         {
@@ -32,8 +32,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/60/ef/7681134338fc097acef8d9b2f8abe0458e4d87559c689a8c306d0957ece5/requests_toolbelt-0.9.1-py2.py3-none-any.whl",
-            "sha256": "380606e1d10dc85c3bd47bf5a6095f815ec007be7a8b69c878507068df059e6f"
+            "url": "https://files.pythonhosted.org/packages/05/d3/bf87a36bff1cb88fd30a509fd366c70ec30676517ee791b2f77e0e29817a/requests_toolbelt-0.10.1-py2.py3-none-any.whl",
+            "sha256": "18565aa58116d9951ac39baa288d3adb5b3ff975c4f25eee78555d89e8f247f7"
         }
     ]
 }
