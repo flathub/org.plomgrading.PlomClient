@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: FSFAP
-# Copyright (C) 2020-2022 Colin B. Macdonald
+# Copyright (C) 2020-2023 Colin B. Macdonald
 #
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
@@ -16,7 +16,7 @@ sdk: org.kde.Sdk
 command: PlomClient
 finish-args:
   - --socket=wayland
-  - --socket=x11
+  - --socket=fallback-x11
   - --share=ipc
   - --device=dri
   - --share=network
