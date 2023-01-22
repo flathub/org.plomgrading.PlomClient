@@ -30,17 +30,18 @@ build-options:
     - BASEAPP_REMOVE_WEBENGINE=1
 modules:
   - python3-appdirs.yaml
-  - python3-exif.yaml
-  - python3-stdiomask.yaml
-  - python3-requests-toolbelt.yaml
   - python3-arrow.yaml
+  - python3-exif.yaml
+  - python3-fonttools.yaml
+  - python3-pandas.yaml
   # python3-Pillow.yaml, unnecessary as a dep of weasyprint
   - python3-pymupdf.yaml
   - python3-segno.yaml
+  - python3-stdiomask.yaml
+  - python3-requests-toolbelt.yaml
+  - python3-tomlkit.yaml
   - python3-tqdm.yaml
   - python3-weasyprint.yaml
-  - python3-pandas.yaml
-  - python3-tomlkit.yaml
 
   - name: Plom
     buildsystem: simple
