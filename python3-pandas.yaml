@@ -14,7 +14,7 @@
 name: python3-pandas
 buildsystem: simple
 build-commands:
-  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} "pandas==1.5.2" --no-build-isolation
+  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} "pandas==1.5.3" --no-build-isolation
 sources:
   - type: file
     url: https://files.pythonhosted.org/packages/2e/09/fbd3c46dce130958ee8e0090f910f1fe39e502cc5ba0aadca1e8a2b932e5/pytz-2022.7.1-py2.py3-none-any.whl
