@@ -34,11 +34,11 @@ modules:
   - python3-stdiomask.yaml
   - python3-requests-toolbelt.yaml
   - python3-arrow.yaml
-  # python3-Pillow.json, unnecessary as a dep of weasyprint
+  # python3-Pillow.yaml, unnecessary as a dep of weasyprint
   - python3-pymupdf.yaml
   - python3-segno.yaml
   - python3-tqdm.yaml
-  - python3-weasyprint.json
+  - python3-weasyprint.yaml
   - python3-pandas.yaml
 
   - name: Plom
