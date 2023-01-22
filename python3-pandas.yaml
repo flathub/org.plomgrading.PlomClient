@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: FSFAP
-# Copyright (C) 2022 Colin B. Macdonald
+# Copyright (C) 2022-2023 Colin B. Macdonald
 #
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
@@ -10,37 +10,27 @@
 # aarch64 to avoid building Pandas source (which I can't get working,
 # something about numpy).  Inspired by an example by real-yfprojects:
 # https://github.com/flatpak/flatpak-builder-tools/issues/296#issuecomment-1173037783
-#
-# I included the .tar.gz source as a fallback, but could be removed.
 
 name: python3-pandas
 buildsystem: simple
 build-commands:
-  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} "pandas==1.4.4" --no-build-isolation
+  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} "pandas==1.5.3" --no-build-isolation
 sources:
   - type: file
-    url: https://pypi.io/packages/source/p/pandas/pandas-1.4.4.tar.gz
-    sha256: ab6c0d738617b675183e5f28db32b5148b694ad9bba0a40c3ea26d96b431db67
+    url: https://files.pythonhosted.org/packages/2e/09/fbd3c46dce130958ee8e0090f910f1fe39e502cc5ba0aadca1e8a2b932e5/pytz-2022.7.1-py2.py3-none-any.whl
+    sha256: 78f4f37d8198e0627c5f1143240bb0206b8691d8d7ac6d78fee88b78733f8c4a
   - type: file
-    url: https://files.pythonhosted.org/packages/91/2e/f2e84148e71dda670b310f1f7b9a220181e5dc1fe2f9dcf6a8632412bf4e/pandas-1.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: a981cfabf51c318a562deb4ae7deec594c07aee7cf18b4594a92c23718ec8275
-    only-arches:
-      - x86_64
+    url: https://files.pythonhosted.org/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl
+    sha256: 961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9
   - type: file
-    url: https://files.pythonhosted.org/packages/3f/ea/c80181902a2c9c15f796a0c729ca730052c5d95bfdc3689ad477e15f75d1/pandas-1.4.4-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-    sha256: 9d2a7a3c1fea668d56bd91edbd5f2732e0af8feb9d2bf8d9bfacb2dea5fa9536
-    only-arches:
-      - aarch64
+    url: https://files.pythonhosted.org/packages/43/55/fea3342371187dea4044521c0ba82b90fb5a42fb92446be019b316dd3320/numpy-1.24.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: ef85cf1f693c88c1fd229ccd1055570cb41cdf4875873b7728b6301f12cd05bf
   - type: file
-    url: https://files.pythonhosted.org/packages/fe/8c/1dfc141202fb2b6b75f9ca4a6681eb5cb7f328d6d2d9d186e5675c468e6a/numpy-1.23.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: d5422d6a1ea9b15577a9432e26608c73a78faf0b9039437b075cf322c92e98e7
-    only-arches:
-      - x86_64
+    url: https://files.pythonhosted.org/packages/ad/9a/98490aee9ca665cd04291658dd76e19c9b9d17680404aa9a122d5ef6ff79/numpy-1.24.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: 8e669fbdcdd1e945691079c2cae335f3e3a56554e06bbd45d7609a6cf568c700
   - type: file
-    url: https://files.pythonhosted.org/packages/07/ef/282bcb710c7e5a6f56a77529e5f8d42ad05ed44f87e65f2771937d5b84aa/numpy-1.23.3-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-    sha256: e5d5420053bbb3dd64c30e58f9363d7a9c27444c3648e61460c1237f9ec3fa14
-    only-arches:
-      - aarch64
+    url: https://files.pythonhosted.org/packages/e1/4d/3eb96e53a9208350ee21615f850c4be9a246d32bf1d34cd36682cb58c3b7/pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: 9f69c4029613de47816b1bb30ff5ac778686688751a5e9c99ad8c7031f6508e5
   - type: file
-    url: https://files.pythonhosted.org/packages/85/ac/92f998fc52a70afd7f6b788142632afb27cd60c8c782d1452b7466603332/pytz-2022.6-py2.py3-none-any.whl
-    sha256: 222439474e9c98fced559f1709d89e6c9cbf8d79c794ff3eb9f8800064291427
+    url: https://files.pythonhosted.org/packages/7d/d6/92be61dca3880c7cec99a9b4acf6260b3dc00519673fdb3e6666ac6096ce/pandas-1.5.3-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: dd05f7783b3274aa206a1af06f0ceed3f9b412cf665b7247eacd83be41cf7bf0

@@ -1,0 +1,46 @@
+# Generated with flatpak-pip-generator weasyprint==57.2 --yaml
+name: python3-weasyprint
+buildsystem: simple
+build-commands:
+  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+    --prefix=${FLATPAK_DEST} "weasyprint==57.2" --no-build-isolation
+sources:
+  - type: file
+    url: https://files.pythonhosted.org/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl
+    sha256: 8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9
+  - type: file
+    url: https://files.pythonhosted.org/packages/e3/d9/e9bae85e84737e76ebbcbea13607236da0c0699baed0ae4f1151b728a608/fonttools-4.38.0-py3-none-any.whl
+    sha256: 820466f43c8be8c3009aef8b87e785014133508f0de64ec469e4efb643ae54fb
+  - type: file
+    url: https://files.pythonhosted.org/packages/9a/ed/d004d5737f9546167eecf0ecd995ee1a796703e512deb2f2ea26cdbe4b3e/zopfli-0.2.2.zip
+    sha256: 2d49db7540d9991976af464ebc1b9ed12988c04d90691bcb51dc4a373a9e2afc
+  - type: file
+    url: https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
+    sha256: a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78
+  - type: file
+    url: https://files.pythonhosted.org/packages/2a/18/70c32fe9357f3eea18598b23aa9ed29b1711c3001835f7cf99a9818985d0/Brotli-1.0.9.zip
+    sha256: 4d1b810aa0ed773f81dceda2cc7b403d01057458730e309856356d4ef4188438
+  - type: file
+    url: https://files.pythonhosted.org/packages/da/99/fd23634d6962c2791fb8cb6ccae1f05dcbfc39bce36bba8b1c9a8d92eae8/tinycss2-1.2.1-py3-none-any.whl
+    sha256: 2b80a96d41e7c3914b8cda8bc7f705a4d9c49275616e886103dd839dfc847847
+  - type: file
+    url: https://files.pythonhosted.org/packages/b2/2f/e4434084c12549a2aa015a8ba007722e6b4e0e7b0855baa915120271a8df/pyphen-0.13.2-py3-none-any.whl
+    sha256: e88cfb46aed61f4c7fe49592ff322e6266485fd2447c818a9123485cd92b7ef4
+  - type: file
+    url: https://files.pythonhosted.org/packages/37/ea/b666bdf953edb998bb5682ab2ac8bcdee8f78e72d5e8a8cdace55b049d38/pydyf-0.5.0-py3-none-any.whl
+    sha256: 116bc4b057822dc72d6afc826cad33444f7dcde8059aa85534380fb63e3e306f
+  - type: file
+    url: https://files.pythonhosted.org/packages/bc/07/830784e061fb94d67649f3e438ff63cfb902dec6d48ac75aeaaac7c7c30e/Pillow-9.4.0.tar.gz
+    sha256: a1c2d7780448eb93fbcc3789bf3916aa5720d942e37945f4056680317f1cd23e
+  - type: file
+    url: https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl
+    sha256: 0d78f8fde1c230e99fe37986a60526d7049ed4bf8a9fadbad5f00e22e58e041d
+  - type: file
+    url: https://files.pythonhosted.org/packages/9d/3a/e39436efe51894243ff145a37c4f9a030839b97779ebcc4f13b3ba21c54e/cssselect2-0.7.0-py3-none-any.whl
+    sha256: fd23a65bfd444595913f02fc71f6b286c29261e354c41d722ca7a261a49b5969
+  - type: file
+    url: https://files.pythonhosted.org/packages/2b/a8/050ab4f0c3d4c1b8aaa805f70e26e84d0e27004907c5b8ecc1d31815f92a/cffi-1.15.1.tar.gz
+    sha256: d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9
+  - type: file
+    url: https://files.pythonhosted.org/packages/3b/ec/b18f3ea0674bc4a1aab14c9c907575d1150bb4bf55a02f3567472200aa8a/weasyprint-57.2-py3-none-any.whl
+    sha256: 685692e7a2b4aec21010a61c1e8f1d6cd611dd46509fa7068fcca3c8e59a94f5

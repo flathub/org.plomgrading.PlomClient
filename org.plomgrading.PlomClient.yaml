@@ -29,17 +29,19 @@ build-options:
   env:
     - BASEAPP_REMOVE_WEBENGINE=1
 modules:
-  - python3-appdirs.json
-  - python3-exif.json
-  - python3-stdiomask.json
-  - python3-requests-toolbelt.json
-  - python3-arrow.json
-  # python3-Pillow.json, unnecessary as a dep of weasyprint
-  - python3-pymupdf.yaml
-  - python3-segno.json
-  - python3-tqdm.json
-  - python3-weasyprint.json
+  - python3-appdirs.yaml
+  - python3-arrow.yaml
+  - python3-exif.yaml
+  - python3-fonttools.yaml
   - python3-pandas.yaml
+  # python3-Pillow.yaml, unnecessary as a dep of weasyprint
+  - python3-pymupdf.yaml
+  - python3-segno.yaml
+  - python3-stdiomask.yaml
+  - python3-requests-toolbelt.yaml
+  - python3-tomlkit.yaml
+  - python3-tqdm.yaml
+  - python3-weasyprint.yaml
 
   - name: Plom
     buildsystem: simple
@@ -48,8 +50,8 @@ modules:
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom/plom-0.11.1.tar.gz
-        sha256: 561717d2117ca211af643e4eefe210934fe891868ccb67f7b39bb481e2c6e1a7
+        url: https://pypi.io/packages/source/p/plom/plom-0.12.0.tar.gz
+        sha256: da8690a887b0844c6648591591aacbfd55d4fa799209bf730213090b50ee9b9f
         x-checker-data:
           type: anitya
           project-id: 92380
