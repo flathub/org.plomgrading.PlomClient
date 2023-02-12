@@ -5,11 +5,11 @@ This a Flatpak manifest for the [Plom](https://plomgrading.org) Client.
 
 ## Credits
 
-For the python dependencies, I used [flatpak-pip-generator].  Doesn't seem
-to have an installer: I just copied the single Python file off github.
+For the python dependencies, I use [flatpak-pip-generator] and [req2flatpak].
 
-[vidcutter]: https://github.com/flathub/com.ozmartians.VidCutter/blob/master/com.ozmartians.VidCutter.json
 [flatpak-pip-generator]: https://github.com/flatpak/flatpak-builder-tools/blob/master/pip/flatpak-pip-generator
+[req2flatpak]: https://johannesjh.github.io/req2flatpak/main/index.html
+
 
 ## Maintenance
 
