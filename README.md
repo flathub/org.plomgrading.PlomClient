@@ -18,6 +18,7 @@ For example,
 ```
 ./flatpak-pip-generator appdirs==1.4.4 --yaml
 ./flatpak-pip-generator Pillow==9.1.0 --yaml
+req2flatpak --requirements pymupdf==1.21.1 --target-platforms 39-x86_64 310-aarch64 --outfile python3-pymupdf.json
 ```
 For `requests-toolbelt`, this tends to re-order the entries.  So
 I sort of do that one manually based on the output.
