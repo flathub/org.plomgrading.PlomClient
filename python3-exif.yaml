@@ -1,13 +1,13 @@
-# Generated with flatpak-pip-generator exif==1.5.0 --yaml
+# Generated with flatpak-pip-generator exif==1.6.0 --yaml
 name: python3-exif
 buildsystem: simple
 build-commands:
   - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-    --prefix=${FLATPAK_DEST} "exif==1.5.0" --no-build-isolation
+    --prefix=${FLATPAK_DEST} "exif==1.6.0" --no-build-isolation
 sources:
   - type: file
     url: https://files.pythonhosted.org/packages/7b/a7/be49a9546cac073fd7203e871d10d29d060b0566eaa697aa790bf2fcfd72/plum_py-0.8.5-py3-none-any.whl
     sha256: eac8a73c9d2471f7f2ab68dcb0247b972e2c973dd8e71ed4d6ea5da7cd4e0296
   - type: file
-    url: https://files.pythonhosted.org/packages/90/03/bfec9548a11bf76ba42f526612a837f3c79f418b05667b499f9b42a1a72d/exif-1.5.0-py3-none-any.whl
-    sha256: aee8f9ee66caf32470f0e53601ba137e15394eeb455b65d0e5eb99b6c750b8ba
+    url: https://files.pythonhosted.org/packages/25/75/acd3f11d4717bce8da4957c2b4e6e4d26a3ea079ecc61d42f6f07e30ca5c/exif-1.6.0-py3-none-any.whl
+    sha256: 2d002b5740eb897da43de1e6a8f4ebacf5171b4d0b8bc0182c70aebde1be86d3
