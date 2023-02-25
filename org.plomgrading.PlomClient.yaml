@@ -11,7 +11,7 @@
 
 app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
-runtime-version: 5.15-21.08
+runtime-version: 5.15-22.08
 sdk: org.kde.Sdk
 command: PlomClient
 finish-args:
@@ -22,7 +22,7 @@ finish-args:
   - --share=network
   - --filesystem=home
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: 5.15-21.08
+base-version: 5.15-22.08
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
 build-options:
@@ -34,7 +34,7 @@ modules:
   - python3-exif.yaml
   - python3-fonttools.yaml
   - python3-pandas.json
-  - python3-Pillow.yaml
+  - python3-Pillow.json
   - python3-pymupdf.json
   - python3-segno.yaml
   - python3-stdiomask.yaml
