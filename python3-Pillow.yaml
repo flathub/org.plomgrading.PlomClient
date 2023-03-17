@@ -1,16 +1,16 @@
+name: python3-package-installation
+buildsystem: simple
 build-commands:
 - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
   --prefix=${FLATPAK_DEST} --no-build-isolation Pillow
-buildsystem: simple
-name: python3-package-installation
 sources:
-- only-arches:
-  - aarch64
-  sha256: 94cdff45173b1919350601f82d61365e792895e3c3a3443cf99819e6fbf717a5
-  type: file
+- type: file
   url: https://files.pythonhosted.org/packages/06/50/fd98b6be293b96b02ca0dca15939e8e8d0c7f71d731e9b93e6403487911f/Pillow-9.4.0-cp310-cp310-manylinux_2_28_aarch64.whl
-- only-arches:
-  - x86_64
-  sha256: ed3e4b4e1e6de75fdc16d3259098de7c6571b1a6cc863b1a49e7d3d53e036070
-  type: file
+  sha256: 94cdff45173b1919350601f82d61365e792895e3c3a3443cf99819e6fbf717a5
+  only-arches:
+  - aarch64
+- type: file
   url: https://files.pythonhosted.org/packages/40/d1/b646804eb150a94c76abc54576ea885f71030bab6c541ccb9594db5da64a/Pillow-9.4.0-cp310-cp310-manylinux_2_28_x86_64.whl
+  sha256: ed3e4b4e1e6de75fdc16d3259098de7c6571b1a6cc863b1a49e7d3d53e036070
+  only-arches:
+  - x86_64
