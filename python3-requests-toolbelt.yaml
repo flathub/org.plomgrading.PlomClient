@@ -1,25 +1,25 @@
-# Generated with flatpak-pip-generator requests-toolbelt==0.10.1 --yaml
+# Generated with flatpak-pip-generator requests-toolbelt==1.0.0 --yaml
 name: python3-requests-toolbelt
 buildsystem: simple
 build-commands:
   - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-    --prefix=${FLATPAK_DEST} "requests-toolbelt==0.10.1" --no-build-isolation
+    --prefix=${FLATPAK_DEST} "requests-toolbelt==1.0.0" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/7b/f5/890a0baca17a61c1f92f72b81d3c31523c99bec609e60c292ea55b387ae8/urllib3-1.26.15-py2.py3-none-any.whl
-    sha256: aa751d169e23c7479ce47a0cb0da579e3ede798f994f5816a74e4f4500dcea42
+    url: https://files.pythonhosted.org/packages/9b/81/62fd61001fa4b9d0df6e31d47ff49cfa9de4af03adecf339c7bc30656b37/urllib3-2.0.4-py3-none-any.whl
+    sha256: de7df1803967d2c2a98e4b11bb7d6bd9210474c46e8a0401514e3a42a75ebde4
   - type: file
     url: https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl
     sha256: 90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2
   - type: file
-    url: https://files.pythonhosted.org/packages/ff/d7/8d757f8bd45be079d76309248845a04f09619a7b17d6dfc8c9ff6433cac2/charset-normalizer-3.1.0.tar.gz
-    sha256: 34e0a2f9c370eb95597aae63bf85eb5e96826d81e3dcf88b8886012906f509b5
+    url: https://files.pythonhosted.org/packages/2a/53/cf0a48de1bdcf6ff6e1c9a023f5f523dfe303e4024f216feac64b6eb7f67/charset-normalizer-3.2.0.tar.gz
+    sha256: 3bb3d25a8e6c0aedd251753a79ae98a093c7e7b471faa3aa9a93a81431987ace
   - type: file
-    url: https://files.pythonhosted.org/packages/71/4c/3db2b8021bd6f2f0ceb0e088d6b2d49147671f25832fb17970e9b583d742/certifi-2022.12.7-py3-none-any.whl
-    sha256: 4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18
+    url: https://files.pythonhosted.org/packages/4c/dd/2234eab22353ffc7d94e8d13177aaa050113286e93e7b40eae01fbf7c3d9/certifi-2023.7.22-py3-none-any.whl
+    sha256: 92d6037539857d8206b8f6ae472e8b77db8058fec5937a1ef3f54304089edbb9
   - type: file
-    url: https://files.pythonhosted.org/packages/d2/f4/274d1dbe96b41cf4e0efb70cbced278ffd61b5c7bb70338b62af94ccb25b/requests-2.28.2-py3-none-any.whl
-    sha256: 64299f4909223da747622c030b781c0d7811e359c37124b4bd368fb8c6518baa
+    url: https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl
+    sha256: 58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f
   - type: file
-    url: https://files.pythonhosted.org/packages/05/d3/bf87a36bff1cb88fd30a509fd366c70ec30676517ee791b2f77e0e29817a/requests_toolbelt-0.10.1-py2.py3-none-any.whl
-    sha256: 18565aa58116d9951ac39baa288d3adb5b3ff975c4f25eee78555d89e8f247f7
+    url: https://files.pythonhosted.org/packages/3f/51/d4db610ef29373b879047326cbf6fa98b6c1969d6f6dc423279de2b1be2c/requests_toolbelt-1.0.0-py2.py3-none-any.whl
+    sha256: cccfdd665f0a24fcf4726e690f65639d272bb0637b9b92dfd91a5568ccf6bd06
