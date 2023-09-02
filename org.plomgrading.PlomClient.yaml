@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: FSFAP
-# Copyright (C) 2020-2022 Colin B. Macdonald
+# Copyright (C) 2020-2023 Colin B. Macdonald
 #
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
@@ -11,7 +11,7 @@
 
 app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
-runtime-version: 5.15-22.08
+runtime-version: '6.5'
 sdk: org.kde.Sdk
 command: PlomClient
 finish-args:
@@ -22,7 +22,7 @@ finish-args:
   - --share=network
   - --filesystem=home
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: 5.15-22.08
+base-version: '6.5'
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
 build-options:
@@ -49,8 +49,8 @@ modules:
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom/plom-0.13.3.tar.gz
-        sha256: 1e05e51cf19727985d813a4bf0616fb34f325a80beb03d283dcb637e8085bb35
+        url: https://pypi.io/packages/source/p/plom/plom-0.14.1.tar.gz
+        sha256: bff6025c1d13f52f8c1500474c17fec1c21892f08804857a46a3856be174f3ae
         x-checker-data:
           type: anitya
           project-id: 92380
