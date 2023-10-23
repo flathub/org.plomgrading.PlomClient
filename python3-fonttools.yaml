@@ -6,5 +6,5 @@ build-commands:
     --prefix=${FLATPAK_DEST} "fonttools==4.42.1" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/45/40/94a4c9b4248dd3d1aa7c17a46e4cfbe493350d0d09548141223fbed6c0fa/fonttools-4.42.1.tar.gz
-    sha256: c391cd5af88aacaf41dd7cfb96eeedfad297b5899a39e12f4c2c3706d0a3329d
+    url: https://files.pythonhosted.org/packages/43/bc/6051ee22b88c5d9d39ea68e8e2422d3036d9b52ac2afc559f7397d59bc64/fonttools-4.43.1.tar.gz
+    sha256: 17dbc2eeafb38d5d0e865dcce16e313c58265a6d2d20081c435f84dc5a9d8212
