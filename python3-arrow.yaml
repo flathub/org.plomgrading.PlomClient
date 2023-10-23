@@ -1,9 +1,9 @@
-# Generated with flatpak-pip-generator arrow==1.2.3 --yaml
+# Generated with flatpak-pip-generator arrow==1.3.0 --yaml
 name: python3-arrow
 buildsystem: simple
 build-commands:
   - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-    --prefix=${FLATPAK_DEST} "arrow==1.2.3" --no-build-isolation
+    --prefix=${FLATPAK_DEST} "arrow==1.3.0" --no-build-isolation
 sources:
   - type: file
     url: https://files.pythonhosted.org/packages/1c/af/5af2e2a02bc464c1c7818c260606343020b96c0d5b64f637d9e91aee24fe/types_python_dateutil-2.8.19.14-py3-none-any.whl
