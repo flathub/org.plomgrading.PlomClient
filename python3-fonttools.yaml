@@ -1,10 +1,10 @@
-# Generated with flatpak-pip-generator fonttools==4.45.1 --yaml
+# Generated with flatpak-pip-generator fonttools==4.47.0 --yaml
 name: python3-fonttools
 buildsystem: simple
 build-commands:
   - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-    --prefix=${FLATPAK_DEST} "fonttools==4.45.1" --no-build-isolation
+    --prefix=${FLATPAK_DEST} "fonttools==4.47.0" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/30/d9/44e654344d0078bdf8c734adee3274a534865a4e444c3cb9b826ef8cc57b/fonttools-4.45.1.tar.gz
-    sha256: 6e441286d55fe7ec7c4fb36812bf914924813776ff514b744b510680fc2733f2
+    url: https://files.pythonhosted.org/packages/dd/e5/9adc30ebca9009d5ad36c7e74462ee5fc51985ca9a845fd26f9f5c99b3df/fonttools-4.47.0.tar.gz
+    sha256: ec13a10715eef0e031858c1c23bfaee6cba02b97558e4a7bfa089dba4a8c2ebf
