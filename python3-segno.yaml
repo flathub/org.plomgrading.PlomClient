@@ -1,10 +1,10 @@
-# Generated with flatpak-pip-generator segno==1.5.3 --yaml
+# Generated with flatpak-pip-generator segno==1.6.0 --yaml
 name: python3-segno
 buildsystem: simple
 build-commands:
   - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-    --prefix=${FLATPAK_DEST} "segno==1.5.3" --no-build-isolation
+    --prefix=${FLATPAK_DEST} "segno==1.6.0" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/3b/7b/046f964f9cdc1282c197c82c8682419cf8b8a6a3753fb9e862f52905a65c/segno-1.5.3-py2.py3-none-any.whl
-    sha256: 9bf88c8be5ca99657881889399f73ad595231230236d89a16b4eb4933513fe07
+    url: https://files.pythonhosted.org/packages/f7/06/3613899162a62ff307c07ad3214e6a1772f946c34f25ccd79f6549dd2e69/segno-1.6.0-py3-none-any.whl
+    sha256: e9c7479e144f750b837f9527fe7492135908b2515586467bc3c893b60a4e4d39
