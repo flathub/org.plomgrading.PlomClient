@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: FSFAP
-# Copyright (C) 2020-2023 Colin B. Macdonald
+# Copyright (C) 2020-2024 Colin B. Macdonald
 #
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
@@ -29,12 +29,12 @@ build-options:
   env:
     - BASEAPP_REMOVE_WEBENGINE=1
 modules:
-  - python3-appdirs.yaml
   - python3-arrow.yaml
   - python3-exif.yaml
   - python3-fonttools.yaml
   - python3-pandas.yaml
   - python3-Pillow.yaml
+  - python3-platformdirs.yaml
   - python3-pymupdf.yaml
   - python3-segno.yaml
   - python3-stdiomask.yaml
