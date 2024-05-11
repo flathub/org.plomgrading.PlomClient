@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "exif==1.6.0" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/2f/da/8a9bdf5d3ea4b13d3142e0c77d6e85e4c2668aef6e4b9d5e9a6619049bdc/plum_py-0.8.7-py3-none-any.whl
-    sha256: d791f059ef159adbe3c3b036557b5b431fa07db226a9de106a74e5e57441741d
-  - type: file
     url: https://files.pythonhosted.org/packages/25/75/acd3f11d4717bce8da4957c2b4e6e4d26a3ea079ecc61d42f6f07e30ca5c/exif-1.6.0-py3-none-any.whl
     sha256: 2d002b5740eb897da43de1e6a8f4ebacf5171b4d0b8bc0182c70aebde1be86d3
+  - type: file
+    url: https://files.pythonhosted.org/packages/2f/da/8a9bdf5d3ea4b13d3142e0c77d6e85e4c2668aef6e4b9d5e9a6619049bdc/plum_py-0.8.7-py3-none-any.whl
+    sha256: d791f059ef159adbe3c3b036557b5b431fa07db226a9de106a74e5e57441741d
