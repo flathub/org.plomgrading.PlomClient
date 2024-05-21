@@ -9,8 +9,8 @@ sources:
     url: https://files.pythonhosted.org/packages/3f/51/d4db610ef29373b879047326cbf6fa98b6c1969d6f6dc423279de2b1be2c/requests_toolbelt-1.0.0-py2.py3-none-any.whl
     sha256: cccfdd665f0a24fcf4726e690f65639d272bb0637b9b92dfd91a5568ccf6bd06
   - type: file
-    url: https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl
-    sha256: 58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f
+    url: https://files.pythonhosted.org/packages/9c/a6/b9bf71eeb6dc835311b5c47a7c90df57b08061091161639611252257768d/requests-2.32.1-py3-none-any.whl
+    sha256: 21ac9465cdf8c1650fe1ecde8a71669a93d4e6f147550483a2967d08396a56a5
   - type: file
     url: https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl
     sha256: dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1
