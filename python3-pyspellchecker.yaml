@@ -1,0 +1,10 @@
+# Generated with flatpak-pip-generator pyspellchecker==0.8.1 --yaml
+name: python3-pyspellchecker
+buildsystem: simple
+build-commands:
+  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+    --prefix=${FLATPAK_DEST} "pyspellchecker==0.8.1" --no-build-isolation
+sources:
+  - type: file
+    url: https://files.pythonhosted.org/packages/e1/d2/c7e3b3a61a34b9320399fa731d1f9f0c73db8a1f28c6764e9e11efa68a29/pyspellchecker-0.8.1-py3-none-any.whl
+    sha256: d91e9e1064793ae1ee8e71b06ca40eeb8e5923437c54291a8e041b447792b640
