@@ -1,9 +1,9 @@
-# Generated with flatpak-pip-generator tqdm==0.66.5 --yaml
+# Generated with flatpak-pip-generator tqdm==4.66.5 --yaml
 name: python3-tqdm
 buildsystem: simple
 build-commands:
   - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-    --prefix=${FLATPAK_DEST} "tqdm==0.66.5" --no-build-isolation
+    --prefix=${FLATPAK_DEST} "tqdm==4.66.5" --no-build-isolation
 sources:
   - type: file
     url: https://files.pythonhosted.org/packages/48/5d/acf5905c36149bbaec41ccf7f2b68814647347b72075ac0b1fe3022fdc73/tqdm-4.66.5-py3-none-any.whl
