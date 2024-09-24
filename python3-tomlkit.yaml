@@ -1,10 +1,10 @@
-# Generated with flatpak-pip-generator tomlkit==0.13.0 --yaml
+# Generated with flatpak-pip-generator tomlkit==0.13.2 --yaml
 name: python3-tomlkit
 buildsystem: simple
 build-commands:
   - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-    --prefix=${FLATPAK_DEST} "tomlkit==0.13.0" --no-build-isolation
+    --prefix=${FLATPAK_DEST} "tomlkit==0.13.2" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/fd/7c/b753bf603852cab0a660da6e81f4ea5d2ca0f0b2b4870766d7aa9bceb7a2/tomlkit-0.13.0-py3-none-any.whl
-    sha256: 7075d3042d03b80f603482d69bf0c8f345c2b30e41699fd8883227f89972b264
+    url: https://files.pythonhosted.org/packages/f9/b6/a447b5e4ec71e13871be01ba81f5dfc9d0af7e473da256ff46bc0e24026f/tomlkit-0.13.2-py3-none-any.whl
+    sha256: 7a974427f6e119197f670fbbbeae7bef749a6c14e793db934baefc1b5f03efde
