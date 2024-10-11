@@ -49,8 +49,8 @@ modules:
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom/plom-0.16.5.tar.gz
-        sha256: 86b0ce225fc4eae2061877004806010dc2384112a329b3c29ee6d412754b8fc3
+        url: https://pypi.io/packages/source/p/plom/plom-0.16.6.tar.gz
+        sha256: 975d23ce27f1ff3e80fc90d433191830400dc76f577b3af57a34059bd776a634
         x-checker-data:
           type: anitya
           project-id: 92380
