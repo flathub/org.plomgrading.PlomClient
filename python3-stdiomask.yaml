@@ -1,0 +1,10 @@
+# Generated with flatpak-pip-generator stdiomask==0.0.6 --yaml
+name: python3-stdiomask
+buildsystem: simple
+build-commands:
+  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+    --prefix=${FLATPAK_DEST} "stdiomask==0.0.6" --no-build-isolation
+sources:
+  - type: file
+    url: https://files.pythonhosted.org/packages/47/a2/f72fd263cecb11ed4cc96bd31608359e1df30349c665674e5c35ea9a72d6/stdiomask-0.0.6.tar.gz
+    sha256: c1e47069ead9e10bda150a26f7922ca01d2adc503042a9d7acf64877a2b9a3a6

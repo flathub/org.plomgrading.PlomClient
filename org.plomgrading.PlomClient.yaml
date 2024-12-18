@@ -1,28 +1,46 @@
 # SPDX-License-Identifier: FSFAP
-# Copyright (C) 2020 Colin B. Macdonald
+# Copyright (C) 2020-2024 Colin B. Macdonald
 #
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
 # notice and this notice are preserved.  This file is offered as-is,
 # without any warranty.
 
+# TODO: drop filesystem permissions if manager split off to new flatpak
+# TODO: or change to :ro for the insert-image function?
+
 app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
-runtime-version: '5.14'
+runtime-version: '6.8'
 sdk: org.kde.Sdk
 command: PlomClient
 finish-args:
   - --socket=wayland
-  - --socket=x11
+  - --socket=fallback-x11
   - --share=ipc
   - --device=dri
   - --share=network
-# note pyqt5 has hardcoded python3.7 and does not use pip
+  - --filesystem=home
+base: com.riverbankcomputing.PyQt.BaseApp
+base-version: '6.8'
+cleanup-commands:
+  - /app/cleanup-BaseApp.sh
+build-options:
+  env:
+    - BASEAPP_REMOVE_WEBENGINE=1
 modules:
-  - pyqt5.json
-  - python3-toml.json
-  - python3-requests-toolbelt.json
-  - python3-wheel.json
+  - python3-arrow.yaml
+  - python3-exif.yaml
+  - python3-pandas.yaml
+  - python3-Pillow.yaml
+  - python3-platformdirs.yaml
+  - python3-pymupdf.yaml
+  - python3-segno.yaml
+  - python3-stdiomask.yaml
+  - python3-requests-toolbelt.yaml
+  - python3-tomlkit.yaml
+  - python3-tqdm.yaml
+  - python3-pyspellchecker.yaml
 
   - name: Plom
     buildsystem: simple
@@ -31,7 +49,12 @@ modules:
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/da/c2/b5de439307efef1c5a76420bbc6cdfb471f9216488d09b78d91245714aa3/plom-0.5.0rc1.tar.gz
-        sha256: 35937025c8f3ae5ad157a67c6e35885ead723f8c9bf686ecc83c24771c0f9a5c
+        url: https://pypi.io/packages/source/p/plom/plom-0.16.11.tar.gz
+        sha256: cac3d3b32f1490838fe9123fd697ae86e4659d1dbbd2b4290fe53cfc859d3bbd
+        x-checker-data:
+          type: anitya
+          project-id: 92380
+          stable-only: true
+          url-template: https://pypi.io/packages/source/p/plom/plom-$version.tar.gz
       - type: file
         path: PlomClient.workaround
