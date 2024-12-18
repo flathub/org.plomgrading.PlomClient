@@ -16,13 +16,14 @@ For the python dependencies, I use [flatpak-pip-generator] and [req2flatpak].
 I bump the deps according to the upstream `requirements.txt.client` file.
 For example,
 ```
-./flatpak-pip-generator appdirs==1.4.4 --yaml
-req2flatpak --requirements pymupdf==1.21.1 --target-platforms 310-x86_64 310-aarch64 --outfile python3-pymupdf.json
+./flatpak-pip-generator arrow==1.3.0 --yaml
+req2flatpak --requirements Pillow==10.4.0 --target-platforms 311-x86_64 311-aarch64 --outfile python3-Pillow.yaml
 ```
 For `requests-toolbelt`, this tends to re-order the entries.  So
 I sort of do that one manually based on the output.
 
-Note: python3-packaging, python3-tomli are in com.riverbankcomputing.PyQt.BaseApp
+Note: `python3-packaging`, `python3-tomli` are
+in [com.riverbankcomputing.PyQt.BaseApp](https://flathub.org/apps/com.riverbankcomputing.PyQt.BaseApp).
 
 Then I submit a branch to github.com, which causes the Flathub bot to try
 building it.  It also gives you a link that folks can use if they need a
