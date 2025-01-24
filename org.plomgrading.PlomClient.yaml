@@ -51,10 +51,11 @@ modules:
       - type: archive
         url: https://pypi.io/packages/source/p/plom-client/plom_client-0.17.1.tar.gz
         sha256: c93e1bc20f31ffe10a4e0e404967bad7b3b2d89d8fda63c7f9f6ecd96c4188a7
-        x-checker-data:
-          type: anitya
-          project-id: 92380
-          stable-only: true
-          url-template: https://pypi.io/packages/source/p/plom-client/plom_client-$version.tar.gz
+#       TODO: plom-client is now its own package, need to update Anitya?
+#        x-checker-data:
+#          type: anitya
+#          project-id: 92380
+#          stable-only: true
+#          url-template: https://pypi.io/packages/source/p/plom-client/plom_client-$version.tar.gz
       - type: file
         path: PlomClient.workaround
