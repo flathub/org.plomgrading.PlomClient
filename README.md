@@ -13,7 +13,7 @@ For the python dependencies, I use [flatpak-pip-generator] and [req2flatpak].
 
 ## Maintenance
 
-I bump the deps according to the upstream `requirements.txt.client` file.
+I bump the deps according to the upstream `requirements.txt` file.
 For example,
 ```
 ./flatpak-pip-generator appdirs==1.4.4 --yaml
