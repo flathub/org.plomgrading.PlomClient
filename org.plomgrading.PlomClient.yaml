@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: FSFAP
-# Copyright (C) 2020-2024 Colin B. Macdonald
+# Copyright (C) 2020-2025 Colin B. Macdonald
 #
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
@@ -49,12 +49,12 @@ modules:
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom/plom-0.16.11.tar.gz
-        sha256: cac3d3b32f1490838fe9123fd697ae86e4659d1dbbd2b4290fe53cfc859d3bbd
+        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.17.1.tar.gz
+        sha256: c93e1bc20f31ffe10a4e0e404967bad7b3b2d89d8fda63c7f9f6ecd96c4188a7
         x-checker-data:
           type: anitya
           project-id: 92380
           stable-only: true
-          url-template: https://pypi.io/packages/source/p/plom/plom-$version.tar.gz
+          url-template: https://pypi.io/packages/source/p/plom-client/plom_client-$version.tar.gz
       - type: file
         path: PlomClient.workaround
