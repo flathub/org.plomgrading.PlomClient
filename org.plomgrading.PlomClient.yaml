@@ -49,8 +49,8 @@ modules:
       - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.17.1.tar.gz
-        sha256: c93e1bc20f31ffe10a4e0e404967bad7b3b2d89d8fda63c7f9f6ecd96c4188a7
+        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.17.2.tar.gz
+        sha256: c6116c540e3e40f55572e2d98a7c6ba68d3d8322424d67a02f9edf8b5f6b9633
 #       TODO: plom-client is now its own package, need to update Anitya?
 #        x-checker-data:
 #          type: anitya
