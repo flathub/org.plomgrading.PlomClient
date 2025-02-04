@@ -30,14 +30,12 @@ build-options:
     - BASEAPP_REMOVE_WEBENGINE=1
 modules:
   - python3-arrow.yaml
-  - python3-exif.yaml
   - python3-Pillow.yaml
   - python3-platformdirs.yaml
   - python3-segno.yaml
   - python3-stdiomask.yaml
   - python3-requests-toolbelt.yaml
   - python3-tomlkit.yaml
-  - python3-tqdm.yaml
   - python3-pyspellchecker.yaml
 
   - name: Plom
