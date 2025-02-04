@@ -16,16 +16,17 @@ For the python dependencies, I use [flatpak-pip-generator] and [req2flatpak].
 I bump the deps according to the upstream `requirements.txt` file.
 For example,
 ```
-./flatpak-pip-generator appdirs==1.4.4 --yaml
+./flatpak-pip-generator arrow==1.3.0 --yaml
 req2flatpak --requirements \
     platformdirs==4.3.6 \
     --target-platforms "311-x86_64 311-aarch64 312-x86_64 312-aarch64" \
     --outfile python3-platformdirs.yaml
 ```
-For `requests-toolbelt`, `flatpak-pip-generator` tends to re-order the entries.
-So I somewhat do that one manually based on the output.
+For `requests-toolbelt`, `flatpak-pip-generator` tends to re-order the entries,
+so I do that one somewhat manually based on the diff output.
 
-Note: `python3-packaging`, `python3-tomli` are in `com.riverbankcomputing.PyQt.BaseApp`.
+Note: `python3-packaging`, `python3-tomli` are
+in [com.riverbankcomputing.PyQt.BaseApp](https://flathub.org/apps/com.riverbankcomputing.PyQt.BaseApp).
 
 Then I submit a branch to github.com, which causes the Flathub bot to try
 building it.  It also gives you a link that folks can use if they need a
