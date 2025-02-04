@@ -13,7 +13,7 @@ app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
 runtime-version: '6.7'
 sdk: org.kde.Sdk
-command: PlomClient
+command: plom-client
 finish-args:
   - --socket=wayland
   - --socket=fallback-x11
@@ -31,10 +31,8 @@ build-options:
 modules:
   - python3-arrow.yaml
   - python3-exif.yaml
-  - python3-pandas.yaml
   - python3-Pillow.yaml
   - python3-platformdirs.yaml
-  - python3-pymupdf.yaml
   - python3-segno.yaml
   - python3-stdiomask.yaml
   - python3-requests-toolbelt.yaml
@@ -46,16 +44,13 @@ modules:
     buildsystem: simple
     build-commands:
       - pip3 install --prefix=$FLATPAK_DEST --no-deps --no-build-isolation .
-      - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.17.1.tar.gz
-        sha256: c93e1bc20f31ffe10a4e0e404967bad7b3b2d89d8fda63c7f9f6ecd96c4188a7
+        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.17.2.tar.gz
+        sha256: c6116c540e3e40f55572e2d98a7c6ba68d3d8322424d67a02f9edf8b5f6b9633
 #       TODO: plom-client is now its own package, need to update Anitya?
 #        x-checker-data:
 #          type: anitya
 #          project-id: 92380
 #          stable-only: true
 #          url-template: https://pypi.io/packages/source/p/plom-client/plom_client-$version.tar.gz
-      - type: file
-        path: PlomClient.workaround
