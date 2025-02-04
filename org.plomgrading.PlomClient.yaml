@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: FSFAP
-# Copyright (C) 2020-2024 Colin B. Macdonald
+# Copyright (C) 2020-2025 Colin B. Macdonald
 #
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
@@ -13,7 +13,7 @@ app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
 runtime-version: '6.8'
 sdk: org.kde.Sdk
-command: PlomClient
+command: plom-client
 finish-args:
   - --socket=wayland
   - --socket=fallback-x11
@@ -30,31 +30,25 @@ build-options:
     - BASEAPP_REMOVE_WEBENGINE=1
 modules:
   - python3-arrow.yaml
-  - python3-exif.yaml
-  - python3-pandas.yaml
   - python3-Pillow.yaml
   - python3-platformdirs.yaml
-  - python3-pymupdf.yaml
   - python3-segno.yaml
   - python3-stdiomask.yaml
   - python3-requests-toolbelt.yaml
   - python3-tomlkit.yaml
-  - python3-tqdm.yaml
   - python3-pyspellchecker.yaml
 
   - name: Plom
     buildsystem: simple
     build-commands:
       - pip3 install --prefix=$FLATPAK_DEST --no-deps --no-build-isolation .
-      - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom/plom-0.16.11.tar.gz
-        sha256: cac3d3b32f1490838fe9123fd697ae86e4659d1dbbd2b4290fe53cfc859d3bbd
-        x-checker-data:
-          type: anitya
-          project-id: 92380
-          stable-only: true
-          url-template: https://pypi.io/packages/source/p/plom/plom-$version.tar.gz
-      - type: file
-        path: PlomClient.workaround
+        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.17.2.tar.gz
+        sha256: c6116c540e3e40f55572e2d98a7c6ba68d3d8322424d67a02f9edf8b5f6b9633
+#       TODO: plom-client is now its own package, need to update Anitya?
+#        x-checker-data:
+#          type: anitya
+#          project-id: 92380
+#          stable-only: true
+#          url-template: https://pypi.io/packages/source/p/plom-client/plom_client-$version.tar.gz
