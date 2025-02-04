@@ -13,7 +13,7 @@ app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
 runtime-version: '6.7'
 sdk: org.kde.Sdk
-command: PlomClient
+command: plom-client
 finish-args:
   - --socket=wayland
   - --socket=fallback-x11
@@ -46,7 +46,6 @@ modules:
     buildsystem: simple
     build-commands:
       - pip3 install --prefix=$FLATPAK_DEST --no-deps --no-build-isolation .
-      - install -D PlomClient.workaround $FLATPAK_DEST/bin/PlomClient
     sources:
       - type: archive
         url: https://pypi.io/packages/source/p/plom-client/plom_client-0.17.2.tar.gz
@@ -57,5 +56,3 @@ modules:
 #          project-id: 92380
 #          stable-only: true
 #          url-template: https://pypi.io/packages/source/p/plom-client/plom_client-$version.tar.gz
-      - type: file
-        path: PlomClient.workaround
