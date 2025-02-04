@@ -17,12 +17,15 @@ I bump the deps according to the upstream `requirements.txt` file.
 For example,
 ```
 ./flatpak-pip-generator appdirs==1.4.4 --yaml
-req2flatpak --requirements pymupdf==1.21.1 --target-platforms 310-x86_64 310-aarch64 --outfile python3-pymupdf.json
+req2flatpak --requirements \
+    platformdirs==4.3.6 \
+    --target-platforms "311-x86_64 311-aarch64 312-x86_64 312-aarch64" \
+    --outfile python3-platformdirs.yaml
 ```
-For `requests-toolbelt`, this tends to re-order the entries.  So
-I sort of do that one manually based on the output.
+For `requests-toolbelt`, `flatpak-pip-generator` tends to re-order the entries.
+So I somewhat do that one manually based on the output.
 
-Note: python3-packaging, python3-tomli are in com.riverbankcomputing.PyQt.BaseApp
+Note: `python3-packaging`, `python3-tomli` are in `com.riverbankcomputing.PyQt.BaseApp`.
 
 Then I submit a branch to github.com, which causes the Flathub bot to try
 building it.  It also gives you a link that folks can use if they need a
