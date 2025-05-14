@@ -44,8 +44,8 @@ modules:
       - pip3 install --prefix=$FLATPAK_DEST --no-deps --no-build-isolation .
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.17.2.tar.gz
-        sha256: c6116c540e3e40f55572e2d98a7c6ba68d3d8322424d67a02f9edf8b5f6b9633
+        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.18.0.tar.gz
+        sha256: a1f0649047a82c57b91c1f62e98e0b237007dec1bf3f0f05659cf07b187b7106
 #       TODO: plom-client is now its own package, need to update Anitya?
 #        x-checker-data:
 #          type: anitya
