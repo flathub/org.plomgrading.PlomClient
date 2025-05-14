@@ -32,7 +32,6 @@ modules:
   - python3-arrow.yaml
   - python3-Pillow.yaml
   - python3-platformdirs.yaml
-  - python3-segno.yaml
   - python3-stdiomask.yaml
   - python3-requests-toolbelt.yaml
   - python3-tomlkit.yaml
