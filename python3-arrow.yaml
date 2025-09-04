@@ -12,5 +12,5 @@ sources:
     url: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
     sha256: a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427
   - type: file
-    url: https://files.pythonhosted.org/packages/c5/3f/b0e8db149896005adc938a1e7f371d6d7e9eca4053a29b108978ed15e0c2/types_python_dateutil-2.9.0.20250516-py3-none-any.whl
-    sha256: 2b2b3f57f9c6a61fba26a9c0ffb9ea5681c9b83e69cd897c6b5f668d9c0cab93
+    url: https://files.pythonhosted.org/packages/ab/d9/a29dfa84363e88b053bf85a8b7f212a04f0d7343a4d24933baa45c06e08b/types_python_dateutil-2.9.0.20250822-py3-none-any.whl
+    sha256: 849d52b737e10a6dc6621d2bd7940ec7c65fcb69e6aa2882acf4e56b2b508ddc
