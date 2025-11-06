@@ -47,6 +47,6 @@ modules:
         sha256: c66428c027eff375355bf1541b4779802701ea7a594e22dc02edb8eba5d510db
         x-checker-data:
           type: anitya
-          project-id: 376555/
+          project-id: 376555
           stable-only: true
           url-template: https://pypi.io/packages/source/p/plom-client/plom_client-$version.tar.gz
