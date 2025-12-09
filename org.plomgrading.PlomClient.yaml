@@ -11,7 +11,7 @@
 
 app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
-runtime-version: '6.8'
+runtime-version: '6.9'
 sdk: org.kde.Sdk
 command: plom-client
 finish-args:
@@ -22,7 +22,7 @@ finish-args:
   - --share=network
   - --filesystem=home
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: '6.8'
+base-version: '6.9'
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
 build-options:
@@ -43,8 +43,8 @@ modules:
       - pip3 install --prefix=$FLATPAK_DEST --no-deps --no-build-isolation .
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.19.3.tar.gz
-        sha256: c66428c027eff375355bf1541b4779802701ea7a594e22dc02edb8eba5d510db
+        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.19.4.tar.gz
+        sha256: 4049c106af13cef6ae7afa17695756decfa7bc25da2c9e62f4e4d294b3468d33
         x-checker-data:
           type: anitya
           project-id: 376555
