@@ -11,7 +11,7 @@
 
 app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
-runtime-version: '6.8'
+runtime-version: '6.9'
 sdk: org.kde.Sdk
 command: plom-client
 finish-args:
@@ -22,7 +22,7 @@ finish-args:
   - --share=network
   - --filesystem=home
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: '6.8'
+base-version: '6.9'
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
 build-options:
