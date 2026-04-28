@@ -43,8 +43,8 @@ modules:
       - pip3 install --prefix=$FLATPAK_DEST --no-deps --no-build-isolation .
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.20.0.tar.gz
-        sha256: 4c6dce537063587a4f23da606df48faba94338b3cb222d84a0df44e9db79ddda
+        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.20.2.tar.gz
+        sha256: 6664a953dc05800db5e0172b32f63e5df7dbc4c5cb28139264b3d5a44c5bedba
         x-checker-data:
           type: anitya
           project-id: 376555
