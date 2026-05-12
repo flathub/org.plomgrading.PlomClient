@@ -1,13 +1,10 @@
 # SPDX-License-Identifier: FSFAP
-# Copyright (C) 2020-2025 Colin B. Macdonald
+# Copyright (C) 2020-2026 Colin B. Macdonald
 #
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
 # notice and this notice are preserved.  This file is offered as-is,
 # without any warranty.
-
-# TODO: drop filesystem permissions if manager split off to new flatpak
-# TODO: or change to :ro for the insert-image function?
 
 app-id: org.plomgrading.PlomClient
 runtime: org.kde.Platform
@@ -20,7 +17,6 @@ finish-args:
   - --share=ipc
   - --device=dri
   - --share=network
-  - --filesystem=home
 base: com.riverbankcomputing.PyQt.BaseApp
 base-version: '6.10'
 cleanup-commands:
@@ -43,8 +39,8 @@ modules:
       - pip3 install --prefix=$FLATPAK_DEST --no-deps --no-build-isolation .
     sources:
       - type: archive
-        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.20.2.tar.gz
-        sha256: 6664a953dc05800db5e0172b32f63e5df7dbc4c5cb28139264b3d5a44c5bedba
+        url: https://pypi.io/packages/source/p/plom-client/plom_client-0.21.0.tar.gz
+        sha256: 952145bc944b5235efea54d6b5d1f285756b0f7527ffad73a6204c7065c07ec8
         x-checker-data:
           type: anitya
           project-id: 376555
