@@ -5,13 +5,23 @@ This a Flatpak manifest for the [Plom](https://plomgrading.org) Client.
 
 ## Credits
 
-For the python dependencies, I use [flatpak-pip-generator] and [req2flatpak].
+For the python dependencies, I use [req2flatpak] in in the past [flatpak-pip-generator].
 
 [flatpak-pip-generator]: https://github.com/flatpak/flatpak-builder-tools/blob/master/pip/flatpak-pip-generator
 [req2flatpak]: https://johannesjh.github.io/req2flatpak/main/index.html
 
 
 ## Maintenance
+
+  * update the `requirements.txt`, see instructions inside the comments in the file.
+  * consider manually tweaking it based on the upstream's release.
+      - for example, if upstream did not bump some dependency yet.
+  * rebuild the `dependencies.yaml` using `req2flatpak`.
+      - this can be done using `./maint3.sh`.
+  * commit changes.
+
+
+## Older Maintenance, before 2026-05
 
 I bump the deps according to the upstream `requirements.txt` file.
 For example,
