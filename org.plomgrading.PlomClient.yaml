@@ -25,7 +25,10 @@ build-options:
   env:
     - BASEAPP_REMOVE_WEBENGINE=1
 modules:
-  - dependencies.yaml
+  - python3-plom-common.yaml
+  - python3-Pillow.yaml
+  - python3-platformdirs.yaml
+  - python3-pyspellchecker.yaml
 
   - name: Plom
     buildsystem: simple
