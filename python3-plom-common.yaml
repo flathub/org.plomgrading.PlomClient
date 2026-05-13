@@ -120,8 +120,8 @@ sources:
   url: https://files.pythonhosted.org/packages/3b/a4/ab6b7589382ca3df236e03faa71deac88cae040af60c071a78d254a62172/passlib-1.7.4-py2.py3-none-any.whl
   sha256: aa6bca462b8d8bda89c70b382f0c298a20b5560af6cbfa2dce410c0a2fb669f1
 - type: file
-  url: https://files.pythonhosted.org/packages/4d/18/e8b2dd24f9610aca359d5610cd22ecf1e47b9a363f72b8c6a44fce010946/plom_common-0.21.2-py3-none-any.whl
-  sha256: 12119457f2ce2d656a660ca6ff2ad85350b84831f3c890188f8170d33469fcac
+  url: https://files.pythonhosted.org/packages/e9/48/c718fd0bb733caa1c85d58fe22eb52b1d8f37b534ef3d3c632ec84c04b07/plom_common-0.21.3-py3-none-any.whl
+  sha256: c971a8c2edadb18cc56418754d25a715d8a0d8d11e42fe28ab1ef26f98c4fd49
 - type: file
   url: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
   sha256: e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746
