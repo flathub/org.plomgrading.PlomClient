@@ -15,6 +15,7 @@ req2flatpak --requirements-file requirements.txt \
 
 
 # now build the yaml files for deps of plom-client (that are not deps of plom-common)
+# TODO: maintaining these requires some care about overlaps with the above
 
 req2flatpak --requirements \
 	Pillow==12.2.0 \
