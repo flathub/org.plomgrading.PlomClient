@@ -5,7 +5,7 @@
 set -e
 
 # must match the python3 of the base image
-archy="311-x86_64 311-aarch64 312-x86_64 312-aarch64 313-x86_64 313-aarch64 314-x86_64 314-aarch64"
+archy="312-x86_64 312-aarch64 313-x86_64 313-aarch64 314-x86_64 314-aarch64"
 
 
 # plom-common and its dependencies
