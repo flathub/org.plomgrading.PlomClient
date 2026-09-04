@@ -18,11 +18,11 @@ req2flatpak --requirements-file requirements.txt \
 # TODO: maintaining these requires some care about overlaps with the above
 
 req2flatpak --requirements \
-	Pillow==12.2.0 \
+	Pillow==12.3.0 \
 	--target-platforms ${archy} --outfile python3-Pillow.yaml
 
 req2flatpak --requirements \
-        platformdirs==4.9.6\
+        platformdirs==4.11.7 \
 	--target-platforms ${archy} --outfile python3-platformdirs.yaml
 
 req2flatpak --requirements \
