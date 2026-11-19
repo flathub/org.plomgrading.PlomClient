@@ -22,9 +22,9 @@ req2flatpak --requirements \
 	--target-platforms ${archy} --outfile python3-Pillow.yaml
 
 req2flatpak --requirements \
-        platformdirs==4.11.7 \
+        platformdirs==4.11.8 \
 	--target-platforms ${archy} --outfile python3-platformdirs.yaml
 
 req2flatpak --requirements \
-        pyspellchecker==0.9.0 \
+        pyspellchecker==0.9.1 \
 	--target-platforms ${archy} --outfile python3-pyspellchecker.yaml
