@@ -18,7 +18,7 @@ req2flatpak --requirements-file requirements.txt \
 # TODO: maintaining these requires some care about overlaps with the above
 
 req2flatpak --requirements \
-	Pillow==12.3.0 \
+	Pillow==13.0.0 \
 	--target-platforms ${archy} --outfile python3-Pillow.yaml
 
 req2flatpak --requirements \
